@@ -8,6 +8,15 @@
     .container.grey {
         width: 100%;
     }
+    #lezioni .row {
+        background-color: #f2f2cd;
+    }
+    #steps .row {
+        background-color: #fff;
+    }
+    #why .row {
+        background-color: #f2f2cd;
+    }
     #lezioni .row>.left,
     #lezioni .row>.right {
         width: 100%;
@@ -21,6 +30,7 @@
         width: 100%;
         padding: 20px 10px;
     }
+    #lezioni .row,
     #steps .row,
     #why .row {
         padding-top: 20px;
