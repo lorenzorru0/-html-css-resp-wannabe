@@ -79,6 +79,9 @@
     .row {
         width: 100%;
     }
+    img {
+        height: 120px;
+    }
     #lezioni .row {
         background-color: #f2f2cd;
         margin-top: 0;
@@ -105,7 +108,9 @@
     }
     #steps .row>.right {
         float: none;
+        width: 50%;
         margin: auto;
+        margin-top: 240px;
     }
     #lezioni .row,
     #steps .row,
