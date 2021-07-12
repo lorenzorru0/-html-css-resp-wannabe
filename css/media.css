@@ -1,3 +1,4 @@
+/* >993px */
 @media screen and (min-width: 993px) {
     #lezioni .row,
     #why .row {
@@ -35,6 +36,7 @@
     }
 }
 
+/* 769px - 992px */
 @media screen and (max-width: 992px) {
     .row {
         width: 100%;
@@ -75,6 +77,7 @@
     }
 }
 
+/* 421px - 768px */
 @media screen and (max-width: 768px) {
     .row {
         width: 100%;
@@ -130,6 +133,7 @@
     }
 }
 
+/* 0 - 420px */
 @media  screen and (max-width: 420px) {
     .row {
         width: 100%;
@@ -159,6 +163,9 @@
         float: none;
         width: 100%;
         padding: 20px 10px;
+    }
+    #steps .row>.right {
+        margin-top: 0;
     }
     #lezioni .row,
     #steps .row,
